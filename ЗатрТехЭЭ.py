@@ -29,6 +29,7 @@ df_help4=pd.read_excel('test.xlsx', sheet_name='СлужСпр_колвофер�
 
 
 app = Dash(__name__)
+server=app.server
 
 data=[{
     'input-data':row.iloc[0],
